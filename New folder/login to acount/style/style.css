@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+nav{
+     margin: 0;  
+     width: 100%;
+}
+
+ul {
+    margin-left: 26%;
+}
+
+input {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 8px;
+
+}
+
+
+/* input, */
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: rgb(50, 50, 240);
+    color: #fff;
+
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}

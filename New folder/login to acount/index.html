@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+
+    <!-- bootstrap5 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- js bundle cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Personal Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-center">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">services</a></li>
+
+                    <!-- login user  -->
+                    <li class="nav-item mt-2 mt-lg-0 ms-lg-auto">
+                        <a id="user" class="nav-link fw-bold" href="#">login</a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center mt-5">personal site</h1>
+    <h2 class="text-center mt-2">login page</h2>
+
+    <!-- login with js  -->
+    <section class="container">
+        <form>
+            <h4>login</h4>
+            <input type="text" id="username" placeholder="username" required>
+            <input type="password" id="password" placeholder="password" required>
+            <button id="loginBtn">login</button>
+        </form>
+    </section>
+</body>
+
+</html>
